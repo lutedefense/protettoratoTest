@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+*.pdb
+.env
+.env.local
+/dist
+/node_modules
+Cargo.lock
+.DS_Store
