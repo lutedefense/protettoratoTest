@@ -1,0 +1,11 @@
+/workspaces/protettoratoTest/backend/target/release/deps/either-53bf5c5732fe9c7a.d: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/workspaces/protettoratoTest/backend/target/release/deps/libeither-53bf5c5732fe9c7a.rlib: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/workspaces/protettoratoTest/backend/target/release/deps/libeither-53bf5c5732fe9c7a.rmeta: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs:
+/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs:
+/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs:
+/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs:

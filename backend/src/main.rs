@@ -31,7 +31,12 @@ async fn main() -> anyhow::Result<()> {
         .route("/health", get(health_check))
         .layer(CorsLayer::permissive());
 
-    let addr = SocketAddr::from(([0, 0, 0, 0], 8080));
+    let port: u16 = std::env::var("PORT")
+        .unwrap_or_else(|_| "8080".to_string())
+        .parse()
+        .expect("PORT must be a number");
+
+    let addr = SocketAddr::from(([0, 0, 0, 0], port));
     println!("🚀 Server running on http://{}", addr);
     
     let listener = tokio::net::TcpListener::bind(addr).await?;
