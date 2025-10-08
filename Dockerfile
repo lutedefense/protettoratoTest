@@ -1,12 +1,6 @@
-FROM rust:1.75-slim as builder
+FROM rust:1.75-slim
 WORKDIR /app
-COPY . .
-RUN rm -rf target/
-RUN ls -la backend/
-RUN cargo build --release --manifest-path backend/Cargo.toml
-
-FROM debian:bookworm-slim
-WORKDIR /app
-COPY --from=builder /app/backend/target/release/protettorato-backend .
-EXPOSE 8080
-CMD ["./protettorato-backend"]
+COPY ./backend ./backend
+WORKDIR /app/backend
+RUN cargo build --release
+CMD ["/app/backend/target/release/protettorato-backend"]
