@@ -1,6 +1,6 @@
 FROM rust:1.75-slim
 WORKDIR /app
+COPY ./backend ./backend
 WORKDIR /app/backend
-COPY . .
-RUN cargo build --release --manifest-path Cargo.toml
+RUN cargo build --release
 CMD ["/app/backend/target/release/protettorato-backend"]
