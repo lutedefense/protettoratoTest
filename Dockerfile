@@ -1,8 +1,8 @@
 FROM rust:1.75-slim as builder
 WORKDIR /app
-COPY ./backend/Cargo.toml ./backend/Cargo.toml
-COPY ./backend/src ./backend/src
-RUN cd backend && cargo build --release
+COPY . .
+RUN ls -la backend/
+RUN cargo build --release --manifest-path backend/Cargo.toml
 
 FROM debian:bookworm-slim
 WORKDIR /app
