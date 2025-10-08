@@ -1,6 +1,7 @@
 FROM rust:1.75-slim as builder
 WORKDIR /app
 COPY . .
+RUN rm -rf target/
 RUN ls -la backend/
 RUN cargo build --release --manifest-path backend/Cargo.toml
 
