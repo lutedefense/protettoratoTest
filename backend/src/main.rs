@@ -154,7 +154,7 @@ async fn home_page() -> impl IntoResponse {
 </head>
 <body>
     <div class="container">
-        <h1>🛡️ Protettorato</h1>
+        <h1>🛡️ Protettorato v2.0</h1>
         <p class="tagline">Your wisdom, available 24/7</p>
         <p style="color: #6B7280; margin-bottom: 30px;">
             Transform your expertise into an AI assistant for your team in minutes.
