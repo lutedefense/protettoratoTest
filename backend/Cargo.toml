@@ -1,3 +1,8 @@
+cargo-features = ["unstable-editions"]
+
+[package]
+# ... rest of your Cargo.toml
+
 [package]
 name = "protettorato-backend"
 version = "0.1.0"
