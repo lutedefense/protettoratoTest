@@ -1,4 +1,4 @@
-FROM rust:1.78-slim as builder
+FROM rust:1.85-slim as builder
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 COPY backend/Cargo.toml ./Cargo.toml
 COPY backend/src ./src
 
-# Build for release (this will generate Cargo.lock if needed)
+# Build for release
 RUN cargo build --release --bin protettorato-backend
 
 # Runtime stage
