@@ -9,10 +9,10 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy backend directory
-COPY backend/Cargo.toml backend/Cargo.lock ./
+COPY backend/Cargo.toml ./Cargo.toml
 COPY backend/src ./src
 
-# Build for release
+# Build for release (this will generate Cargo.lock if needed)
 RUN cargo build --release --bin protettorato-backend
 
 # Runtime stage
